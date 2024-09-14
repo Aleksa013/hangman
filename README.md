@@ -7,3 +7,4 @@ Used:
 -  Webpack
 -  ESLint
 -  Prettier
+## [Deploy](https://aleksa013.github.io/hangman/dist/main.html)
