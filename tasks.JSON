@@ -1,0 +1,46 @@
+[
+  {
+    "hint": "A special data structure for storing ordered collections in JavaScript",
+    "answer": "array"
+  },
+  {
+    "hint": "A textual data in JavaScript",
+    "answer": "string"
+  },
+  {
+    "hint": "A logical data type in JavaScript that can have only the values true or false",
+    "answer": "boolean"
+  },
+  {
+    "hint": "In modern JavaScript, there are two types of this data type: regular and BigInt",
+    "answer": "number"
+  },
+  {
+    "hint": "A block of code designed to perform a particular task",
+    "answer": "function"
+  },
+  {
+    "hint": "This is a process of calculating values based on known values.",
+    "answer": "interpolation"
+  },
+  {
+    "hint": "This is a container for a value, like a number we might use in a sum, or a string that we might use as part of a sentence.",
+    "answer": "variable"
+  },
+  {
+    "hint": "This  object represents your web page.",
+    "answer": "document"
+  },
+  {
+    "hint": "The most popular JavaScript module bundler",
+    "answer": "webpack"
+  },
+  {
+    "hint": "The value  (positive ) is greater than any other number.",
+    "answer": "Infinity"
+  },
+  {
+    "hint": "A special method of a class for creating and initializing an object instance of that class.",
+    "answer": "constructor"
+  }
+]
