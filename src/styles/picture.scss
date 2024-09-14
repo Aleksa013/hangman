@@ -1,0 +1,182 @@
+.picture {
+  width: 30em;
+  display: flex;
+  position: relative;
+  height: 37em;
+  background-image: url("../assets/gallows.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin: 0 auto;
+  &__head {
+    transition: 1s;
+    position: absolute;
+    top: 26%;
+    right: 13%;
+    circle {
+      stroke: transparent;
+    }
+  }
+  &__body {
+    transition: 1s;
+    position: absolute;
+    top: 43%;
+    right: 23%;
+    rect {
+      fill: transparent;
+    }
+  }
+  &__arm_left {
+    transition: 1s;
+    position: absolute;
+    top: 43%;
+    right: 23%;
+    rect {
+      fill: transparent;
+    }
+  }
+  &__arm_rigth {
+    transition: 1s;
+    position: absolute;
+    top: 43%;
+    right: 10%;
+    rect {
+      fill: transparent;
+    }
+  }
+  &__leg_left {
+    transition: 1s;
+    position: absolute;
+    top: 64%;
+    right: 23%;
+    rect {
+      fill: transparent;
+    }
+    transition: 1s;
+  }
+  &__leg_rigth {
+    transition: 1s;
+    position: absolute;
+    top: 64%;
+    right: 10%;
+    rect {
+      fill: transparent;
+    }
+  }
+  .wrongLetter {
+    transition: 1s;
+    circle {
+      stroke: #909090;
+    }
+    rect {
+      fill: #909090;
+    }
+  }
+}
+
+@media screen and (max-width: 1240px) and (min-width: 800px) {
+  .picture {
+    width: 20em;
+    margin: 0;
+    &__head {
+      right: -5%;
+      width: 30%;
+      height: 15%;
+    }
+    &__body {
+      top: 41%;
+      right: 10%;
+    }
+    &__arm_left {
+      top: 41%;
+      right: 10%;
+    }
+    &__arm_rigth {
+      top: 41%;
+      right: -10%;
+    }
+    &__leg_left {
+      top: 62%;
+      right: 10%;
+    }
+    &__leg_rigth {
+      top: 62%;
+      right: -10%;
+    }
+  }
+}
+@media screen and (max-width: 799px) and (min-width: 500px) {
+  .picture {
+    width: 20em;
+    margin: 0;
+    background-size: 70%;
+    &__head {
+      right: 15%;
+      top: 31%;
+      width: 20%;
+    }
+    &__body {
+      top: 44.5%;
+      right: 24%;
+      width: 2%;
+      height: 20%;
+    }
+    &__arm_left {
+      top: 42%;
+      right: 25%;
+      width: 14%;
+    }
+    &__arm_rigth {
+      top: 42%;
+      right: 11%;
+      width: 14%;
+    }
+    &__leg_left {
+      top: 61.5%;
+      right: 25%;
+      width: 14%;
+    }
+    &__leg_rigth {
+      top: 61.5%;
+      right: 11%;
+      width: 14%;
+    }
+  }
+}
+@media screen and (max-width: 515px) and (min-width: 360px) {
+  .picture {
+    width: 30em;
+    margin: 0;
+    background-size: 70%;
+    &__head {
+      right: 15%;
+      top: 26%;
+      width: 20%;
+    }
+    &__body {
+      top: 42.5%;
+      right: 24%;
+      width: 2%;
+      height: 20%;
+    }
+    &__arm_left {
+      top: 42%;
+      right: 25%;
+      width: 14%;
+    }
+    &__arm_rigth {
+      top: 42%;
+      right: 11%;
+      width: 14%;
+    }
+    &__leg_left {
+      top: 61.5%;
+      right: 24.5%;
+      width: 14%;
+    }
+    &__leg_rigth {
+      top: 61.5%;
+      right: 11.5%;
+      width: 14%;
+    }
+  }
+}

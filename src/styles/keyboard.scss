@@ -1,0 +1,55 @@
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #c4c4ed;
+  border-radius: 20px;
+  .letter {
+    width: 9%;
+    margin: 3% 1%;
+    padding: 1% 1%;
+    font-size: 120%;
+    background-color: #939393;
+  }
+  .letter-down {
+    background-color: #c4c4ed;
+  }
+}
+@media screen and (max-width: 1240px) and (min-width: 800px) {
+  .keyboard {
+    width: 90%;
+    padding: 1%;
+    .letter {
+      width: 8%;
+      margin: 2% 1%;
+      font-size: 100%;
+      border: #626161 solid 2px;
+    }
+  }
+}
+@media screen and (max-width: 799px) and (min-width: 515px) {
+  .keyboard {
+    width: 100%;
+    padding: 4%;
+    .letter {
+      width: 8%;
+      margin: 1% 1%;
+      font-size: 90%;
+      border: #626161 solid 2px;
+    }
+  }
+}
+@media screen and (max-width: 515px) and (min-width: 360px) {
+  .keyboard {
+    width: 100%;
+    padding: 4%;
+    .letter {
+      width: 8%;
+      margin: 1% 1%;
+      font-size: 90%;
+      border: #626161 solid 2px;
+    }
+  }
+}
