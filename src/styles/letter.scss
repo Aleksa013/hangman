@@ -1,0 +1,12 @@
+.letter {
+  width: 20%;
+  margin: 0 0.1%;
+  padding: 3% 2%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1240px) and (min-width: 800px) {
+  .letter {
+    width: 15%;
+  }
+}
